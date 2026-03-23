@@ -89,11 +89,22 @@ header {
     margin: auto;
 }
 
-.landing-body, 
+.landing-body,
+.bio-body,
 .landing-body a, 
-.landing-body h4 {
+.landing-body h4,
+.bio-body p,
+.bio-body h3,
+.bio-body a {
     background-color: #F5C22B;
     color: #E03F00;
+}
+
+.landing-body a:hover,
+.bio-body a:hover,
+.landing-body:checked, 
+.bio-body a:checked {
+    color: #FA5A1F;
 }
 
 .project-container {
@@ -174,16 +185,6 @@ header {
     padding: 2rem;
 }
 
-.bio-body {
-    background-color: #FDFF73;
-}
-
-.bio-body p, 
-.bio-body h3, 
-.bio-body a {
-    color: #E03F00;
-}
-
 .bio-content {
     display: flex;
     flex-direction: column;
@@ -198,3 +199,22 @@ header {
     gap: 0.2rem;
     padding-top: 1rem;
 }
+
+/* Style Guide */
+
+.style-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.style-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 700px;    
+    margin: auto;
+}
+
+
+
