@@ -11,6 +11,12 @@ input {
     color: #BFBFBF;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 .button {
     padding: 1rem;
     background-color: #E33D00;
@@ -116,4 +122,12 @@ footer {
     gap: 1rem;
     padding-top: 2rem;
     margin-top: auto;
+}
+
+/* Screens */
+
+@media (max-width: 350px) {
+    .project-details {
+        flex-direction: column;
+    }
 }
