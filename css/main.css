@@ -124,10 +124,17 @@ footer {
     margin-top: auto;
 }
 
-/* Screens */
+/* Phone */
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
     .project-details {
         flex-direction: column;
     }
+}
+
+@media (max-width: 780px) {
+    .project1-body {
+        background-color: yellow;
+    }
+  
 }
