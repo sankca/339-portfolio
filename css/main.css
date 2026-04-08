@@ -7,6 +7,25 @@ body {
     padding: 1rem;
 }
 
+input {
+    color: #BFBFBF;
+}
+
+.button {
+    padding: 1rem;
+    background-color: #E33D00;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    border-radius: 5%;
+}
+
+.button:active,
+.button:hover,
+.button:focus {
+    background-color: #E33D00;
+    color: white;
+}
+
 /* Giant header */
 h1 {
     font-size: 1.4rem;
@@ -36,6 +55,12 @@ h4 {
     font-weight: normal;
     margin: 0;
     padding-bottom: 0.4rem;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
 }
 
 p {
